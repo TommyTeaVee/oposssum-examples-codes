@@ -1,0 +1,35 @@
+{
+  "name": "opossum-browser-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "eslint test/*.js index.js app.js",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nodeshift/opossum.git"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-semistandard": "16.0.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-promise": "5.1.0",
+    "eslint-plugin-standard": "4.1.0"
+  },
+  "description": "Simple example with opossum and browser.",
+  "dependencies": {
+    "@hapi/boom": "9.1.4",
+    "bootstrap": "5.1.0",
+    "@hapi/hapi": "20.1.5",
+    "@hapi/inert": "6.0.4",
+    "jquery": "3.6.0",
+    "opossum": "6.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/nodeshift/opossum/issues"
+  },
+  "homepage": "https://github.com/nodeshift/opossum#readme",
+  "author": ""
+}

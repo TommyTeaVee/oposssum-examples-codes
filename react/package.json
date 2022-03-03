@@ -1,0 +1,22 @@
+{
+  "name": "opossum-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "react": "cd ./client && npm start",
+    "start": "concurrently -n server,react -c bgRed,bgBlue \"npm:server\" \"npm:react\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
